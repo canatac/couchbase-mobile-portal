@@ -7,3 +7,8 @@
       path: references/couchbase-lite/release-notes/index.html
     - title: Features
       path: guides/couchbase-lite/index.html
+- title: Sync Gateway
+  open: true
+  items:
+    - title: Convergence
+      path: guides/sync-gateway/index.html
