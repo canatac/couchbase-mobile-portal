@@ -62,6 +62,21 @@ This step will create a new **pom.xml** file. Add the following inside the `<pro
 Open **Main.java** and add the following in the `main` method.
 
 ```java
+
+package my.simple.java;
+
+import java.util.logging.Logger;
+import com.couchbase.lite.CouchbaseLiteException;
+import com.couchbase.lite.*;
+import com.couchbase.lite.replicator.*;
+import com.couchbase.lite.util.*;
+import java.io.IOException;
+import java.net.URL;
+import java.net.MalformedURLException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.logging.Level;
+
 // Enable logging
 Logger log = Logger.getLogger("app");
 log.setLevel(Level.ALL);
